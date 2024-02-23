@@ -14,6 +14,7 @@ sales['Month'] = sales['Order Date'].dt.month_name()
 
 # Create the Dash application
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div((
 
